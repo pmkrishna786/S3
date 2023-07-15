@@ -5,7 +5,7 @@ provider "aws" {
 }
 resource "aws_s3_bucket" "bucket" {
   bucket = "muraliJenkins"
-  acl    = "private"
+  acl    = "public"
 
   tags = {
     #Name        = "cehtestingfromterraform"
